@@ -7,7 +7,7 @@ const usuario1 = { nome : 'Diego', idade : 23 };
 
 const mostraIdade = (usuario) => { return usuario.idade; };
 
-mostraIdade(usuario1);
+console.log(mostraIdade(usuario1));
 
 // 3.3
 const nome = "Diego";
@@ -15,8 +15,8 @@ const idade = 23;
 
 const mostraUsuario = (nome = 'Diego', idade = 18) => { return { nome, idade }; };
 
-mostraUsuario(nome, idade);
-mostraUsuario(nome);
+console.log(mostraUsuario(nome, idade));
+console.log(mostraUsuario(nome));
 
 // 3.4 
 const promises = () => {

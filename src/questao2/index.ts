@@ -6,13 +6,17 @@ const projetos = [
 
 // 2.1
 const valores = projetos.map(projeto => projeto.valor);
+console.log(valores);
 
 // 2.2
 const projetosMesmaCidade = projetos.filter(projeto => projeto.endereco.cidade === 'Z');
+console.log(projetosMesmaCidade);
 
 // 2.3
 const projetosGoogle = projetos.find(projeto => projeto.empresa === 'Google');
+console.log(projetosGoogle);
 
 // 2.4
 projetos.forEach(projeto => projeto.valor =  projeto.valor * 2);
 const projetosNoLimite = projetos.filter(projeto => projeto.valor <= 30000);
+console.log(projetosNoLimite);

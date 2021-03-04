@@ -20,4 +20,4 @@ const mostrarInfo =  (nome, idade) => {
     return `${nome} tem ${idade} anos.`;
 }
 
-mostrarInfo('Diego', 23);
+console.log(mostrarInfo('Diego', 23));
